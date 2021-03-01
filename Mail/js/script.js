@@ -10,9 +10,8 @@ for (var i = 0; i < lista.length; i++) {
     }
 }
 
-if (emailValida ==nome) {
+if (emailValida == nome) {
   document.getElementById('buttafuori').innerHTML="Sei dentro";
 } else {
   document.getElementById('buttafuori').innerHTML="Sei fuori";
-
 }
